@@ -1,0 +1,105 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.1.4">
+  <diagram name="Page-1" id="vRiwi_P50hUY9ZvjmzZ0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0t6ssc6U1_LgZfvVRgyJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0t6ssc6U1_LgZfvVRgyJ-2" target="0t6ssc6U1_LgZfvVRgyJ-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0t6ssc6U1_LgZfvVRgyJ-2" value="Start" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="384" y="40" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6ssc6U1_LgZfvVRgyJ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0t6ssc6U1_LgZfvVRgyJ-7" target="0t6ssc6U1_LgZfvVRgyJ-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="519" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0t6ssc6U1_LgZfvVRgyJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0t6ssc6U1_LgZfvVRgyJ-7" target="0t6ssc6U1_LgZfvVRgyJ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6ssc6U1_LgZfvVRgyJ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0t6ssc6U1_LgZfvVRgyJ-7" target="0t6ssc6U1_LgZfvVRgyJ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6ssc6U1_LgZfvVRgyJ-7" value="Vali juhuslik number (1–100)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6ssc6U1_LgZfvVRgyJ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0t6ssc6U1_LgZfvVRgyJ-9" target="0t6ssc6U1_LgZfvVRgyJ-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0t6ssc6U1_LgZfvVRgyJ-9" value="1. Kui sisestus = juhuslik number" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="280" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6ssc6U1_LgZfvVRgyJ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="0t6ssc6U1_LgZfvVRgyJ-11" target="0t6ssc6U1_LgZfvVRgyJ-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="354" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0t6ssc6U1_LgZfvVRgyJ-11" value="2. Kui sisestus &amp;gt; number → &quot;Liiga suur&quot;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="280" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6ssc6U1_LgZfvVRgyJ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="0t6ssc6U1_LgZfvVRgyJ-13" target="0t6ssc6U1_LgZfvVRgyJ-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="519" y="475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0t6ssc6U1_LgZfvVRgyJ-13" value="3. Kui sisestus &amp;lt; number → &quot;Liiga väike&quot;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="474" y="280" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6ssc6U1_LgZfvVRgyJ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0t6ssc6U1_LgZfvVRgyJ-20" target="0t6ssc6U1_LgZfvVRgyJ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6ssc6U1_LgZfvVRgyJ-17" value="EI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="0t6ssc6U1_LgZfvVRgyJ-16">
+          <mxGeometry x="-0.0889" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0t6ssc6U1_LgZfvVRgyJ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0t6ssc6U1_LgZfvVRgyJ-20" target="0t6ssc6U1_LgZfvVRgyJ-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="570" />
+              <mxPoint x="750" y="175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0t6ssc6U1_LgZfvVRgyJ-19" value="Jah" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="0t6ssc6U1_LgZfvVRgyJ-18">
+          <mxGeometry x="-0.0546" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0t6ssc6U1_LgZfvVRgyJ-20" value="Kas soovite jätkata?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6ssc6U1_LgZfvVRgyJ-21" value="Lõpp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6ssc6U1_LgZfvVRgyJ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0t6ssc6U1_LgZfvVRgyJ-23" target="0t6ssc6U1_LgZfvVRgyJ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6ssc6U1_LgZfvVRgyJ-23" value="Uus katse" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6ssc6U1_LgZfvVRgyJ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0t6ssc6U1_LgZfvVRgyJ-24" target="0t6ssc6U1_LgZfvVRgyJ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0t6ssc6U1_LgZfvVRgyJ-26" value="Jah" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="0t6ssc6U1_LgZfvVRgyJ-25">
+          <mxGeometry x="-0.2504" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0t6ssc6U1_LgZfvVRgyJ-24" value="&quot;Võitsid!&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
