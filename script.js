@@ -1,10 +1,3 @@
-const guessInput = document.getElementById('guessInput');
-const guessBtn = document.getElementById('guessBtn');
-const feedback = document.getElementById('feedback');
-
-let secretNumber = Math.floor(Math.random() * 100) + 1;
-let hasWon = false;
-
 guessBtn.addEventListener('click', () => {
     if (hasWon) return;
 
@@ -12,6 +5,11 @@ guessBtn.addEventListener('click', () => {
 
     if (isNaN(guessValue)) {
         feedback.textContent = "❗ Palun sisesta korrektne number.";
+        return;
+    }
+
+    if (guessValue < 1 || guessValue > 100) {
+        feedback.textContent = "❗ Number peab olema vahemikus 1 kuni 100.";
         return;
     }
 
