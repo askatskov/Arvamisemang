@@ -1,7 +1,8 @@
 const guessInput = document.getElementById('guessInput');
 const guessBtn = document.getElementById('guessBtn');
 const feedback = document.getElementById('feedback');
-const attemptsDisplay = document.getElementById('attemptsDisplay');
+const attemptsCount = document.getElementById('attempts');
+const resetBtn = document.getElementById('resetBtn');
 
 let secretNumber = Math.floor(Math.random() * 100) + 1;
 let hasWon = false;
@@ -23,16 +24,29 @@ guessBtn.addEventListener('click', () => {
     }
 
     attempts++;
-    attemptsDisplay.textContent = `Katsed: ${attempts}`;
+    attemptsCount.textContent = `Katsed: ${attempts}`;
 
     if (guessValue === secretNumber) {
         feedback.textContent = `🎉 Õige! Sa võitsid ${attempts}. katsega!`;
         hasWon = true;
         guessBtn.disabled = true;
         guessInput.disabled = true;
+        resetBtn.style.display = 'inline-block';
     } else if (guessValue < secretNumber) {
         feedback.textContent = "📉 Liiga väike!";
     } else {
         feedback.textContent = "📈 Liiga suur!";
     }
+});
+
+resetBtn.addEventListener('click', () => {
+    secretNumber = Math.floor(Math.random() * 100) + 1;
+    hasWon = false;
+    attempts = 0;
+    guessInput.value = '';
+    guessInput.disabled = false;
+    guessBtn.disabled = false;
+    feedback.textContent = '';
+    attemptsCount.textContent = 'Katsed: 0';
+    resetBtn.style.display = 'none';
 });
