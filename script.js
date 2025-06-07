@@ -1,3 +1,12 @@
+const guessInput = document.getElementById('guessInput');
+const guessBtn = document.getElementById('guessBtn');
+const feedback = document.getElementById('feedback');
+const attemptsDisplay = document.getElementById('attemptsDisplay');
+
+let secretNumber = Math.floor(Math.random() * 100) + 1;
+let hasWon = false;
+let attempts = 0;
+
 guessBtn.addEventListener('click', () => {
     if (hasWon) return;
 
@@ -13,8 +22,11 @@ guessBtn.addEventListener('click', () => {
         return;
     }
 
+    attempts++;
+    attemptsDisplay.textContent = `Katsed: ${attempts}`;
+
     if (guessValue === secretNumber) {
-        feedback.textContent = "🎉 Õige! Sa võitsid!";
+        feedback.textContent = `🎉 Õige! Sa võitsid ${attempts}. katsega!`;
         hasWon = true;
         guessBtn.disabled = true;
         guessInput.disabled = true;
